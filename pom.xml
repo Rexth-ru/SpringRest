@@ -56,12 +56,27 @@
       <artifactId>jackson-databind</artifactId>
       <version>2.14.1</version>
     </dependency>
-
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>6.1.7.Final</version>
+      <version>5.6.5.Final</version>
     </dependency>
+
+<!--    <dependency>-->
+<!--      <groupId>org.hibernate</groupId>-->
+<!--      <artifactId>hibernate-core</artifactId>-->
+<!--      <version>6.1.7.Final</version>-->
+<!--    </dependency>-->
+
+    <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat -->
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat</artifactId>
+      <version>9.0.72</version>
+      <type>pom</type>
+    </dependency>
+
 
   </dependencies>
   <build>
